@@ -28,14 +28,20 @@ go run main.go
 
 ## How to add proxies?
 
+* If you don't have proxies, you can use my ProxyParser
+
+  ```link
+  https://github.com/InnoNodo/ProxyParser
+  ```
+
 * If you have proxies with authorization, format should be:
 
-```bash
-http://username:password@ip_adress:port
-```
+  ```bash
+  http://username:password@ip_adress:port
+  ```
 
 * If you have proxies without authorization, format should be:
 
-```bash
-http://ip_adress:port
-```
+  ```bash
+  http://ip_adress:port
+  ```
